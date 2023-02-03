@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+.img {
+  padding: 0;
+  width: 80px;
+  max-height: 100%;
+  min-width: 100%;
+  border-radius: 50%;
+  border: 1px solid rgb(158, 152, 152);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image {
+  margin-bottom: 5px;
+  max-width: 150px;
+  max-height: 150px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #262626;
+  color: aliceblue;
+  font-family: "Bree Serif", serif;
+  letter-spacing: 1px;
+}
+body :hover {
+  color: #f5eeee;
+}
+body :hover .icon-1 {
+  color: #fc0000;
+}
+body :hover .icon-2 {
+  color: #82ec00;
+}
+body :hover h3:nth-child(odd) {
+  border-radius: 5px;
+  background-color: rgba(59, 24, 59, 0.5411764706);
+}
+
+.testimonials {
+  margin: 10px 15px 7px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 15px;
+}
+
+.card {
+  border-radius: 10px;
+  position: relative;
+  width: 350px;
+  margin: 0 auto;
+  background: #333;
+  padding: 10px;
+  box-sizing: border-box;
+  text-align: center;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+}
+
+.layer {
+  position: absolute;
+  top: calc(100% - 3px);
+  left: 0;
+  background: linear-gradient(
+    rgba(3, 168, 244, 0.4431372549),
+    rgba(233, 30, 226, 0.5490196078)
+  );
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+  transition: 0.5s;
+}
+
+.card:hover .layer {
+  top: 0;
+  color: #262626;
+}
+
+.content {
+  position: relative;
+  z-index: 2;
+}
+
+.details {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.buton-1 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  gap: 1px;
+  cursor: pointer;
+}
+
+.buton-2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  gap: 1px;
+  cursor: pointer;
+}
+
+.title-1 {
+  font-size: xx-large;
+  margin-left: 25px;
+}
+
+.title-2 {
+  font-size: x-large;
+  margin-left: 25px;
+}
+
+.icon-1 {
+  color: #03a9f4;
+}
+
+.icon-2 {
+  color: #e91ee3;
+}
+
+.bottom h3:nth-child(odd) {
+  border-radius: 5px;
+  background-color: rgba(78, 37, 17, 0.4666666667);
+}
+
+.first-text {
+  border-radius: 10px;
+  border: 1px solid rgba(214, 155, 155, 0.295);
+}
+
+.second-text {
+  border-radius: 10px;
+  border: 1px solid rgba(214, 155, 155, 0.295);
+} /*# sourceMappingURL=custom.css.map */
