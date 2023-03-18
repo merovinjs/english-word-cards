@@ -9,17 +9,9 @@ export default function FlashCard({flashcard}) {
     return (
 
     <div className='card' >
-        
-        
-        <div className='layer'></div>
-
-        
+        <div className='layer'></div>   
         <div className='content'>
-
-        <div className='details'>
-        
-
-        
+        <div className='details'>       
       
         <div className='image'>
         <img className='img' src={flashcard.img} alt="" />
